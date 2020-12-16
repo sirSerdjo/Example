@@ -41,7 +41,7 @@ namespace AspMvcCoreLearning
             app.UseHttpsRedirection();           
                         
             app.Run(async context => {
-                await context.Response.WriteAsync("Hello world!");
+                await context.Response.WriteAsync("Hello ASP MVC Core!");
             });
         }
     }
